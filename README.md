@@ -56,13 +56,33 @@ here, and a result calculated here opens in the Windows version.
 
 ## Installation
 
-A ready-made package is available on the project website:
+Two ready-made builds are published in [Releases](../../releases):
+
+| File | For |
+|---|---|
+| `tmc-suite_1.0.0_amd64.deb` | Ubuntu 24.04 LTS, Debian and other systems with `apt` |
+| `TMC_Suite-1.0.0-x86_64.AppImage` | any other distribution — a single file, nothing to install |
 
 ```
 sudo apt install ./tmc-suite_1.0.0_amd64.deb
 ```
 
-Requirements: Ubuntu 24.04 LTS or compatible (glibc 2.39), x64. FieldView needs OpenGL.
+The AppImage carries all six programs, the Qt libraries, the fonts, the samples and the user
+manual inside one file. Which program to start is chosen by the first argument, or by the name the
+image is called under:
+
+```
+chmod +x TMC_Suite-1.0.0-x86_64.AppImage
+./TMC_Suite-1.0.0-x86_64.AppImage                     # PlanarRT_H
+./TMC_Suite-1.0.0-x86_64.AppImage fieldview field.ex  # any of the six programs
+./TMC_Suite-1.0.0-x86_64.AppImage --help              # the list of programs
+ln -s TMC_Suite-1.0.0-x86_64.AppImage tmcros && ./tmcros
+```
+
+Requirements: x64 and **glibc 2.39 or newer** — Ubuntu 24.04+, Debian 13, Fedora 40+,
+openSUSE Tumbleweed, Arch, Manjaro. On older systems (Ubuntu 22.04, Debian 12, RHEL 9) the image
+will not start: the programs are built on Ubuntu 24.04, and glibc is not backwards compatible.
+FieldView needs OpenGL. If the system complains about FUSE, add `--appimage-extract-and-run`.
 
 ## Building from source
 
@@ -181,13 +201,32 @@ C++ · Qt 6 · OpenGL · Linux (x64)
 
 ## Установка
 
-Готовый пакет лежит на сайте проекта:
+Готовые сборки опубликованы в разделе [Releases](../../releases):
+
+| Файл | Кому |
+|---|---|
+| `tmc-suite_1.0.0_amd64.deb` | Ubuntu 24.04 LTS, Debian и прочие системы с `apt` |
+| `TMC_Suite-1.0.0-x86_64.AppImage` | любому другому дистрибутиву — один файл, устанавливать ничего не нужно |
 
 ```
 sudo apt install ./tmc-suite_1.0.0_amd64.deb
 ```
 
-Требования: Ubuntu 24.04 LTS или совместимая (glibc 2.39), x64. Для FieldView нужен OpenGL.
+В образе AppImage лежат все шесть программ, библиотеки Qt, шрифты, образцы заданий и руководство
+пользователя. Какую программу запускать, задаёт первый довод либо имя, под которым вызван образ:
+
+```
+chmod +x TMC_Suite-1.0.0-x86_64.AppImage
+./TMC_Suite-1.0.0-x86_64.AppImage                      # PlanarRT_H
+./TMC_Suite-1.0.0-x86_64.AppImage fieldview поле.ex    # любая из шести программ
+./TMC_Suite-1.0.0-x86_64.AppImage --help               # список программ
+ln -s TMC_Suite-1.0.0-x86_64.AppImage tmcros && ./tmcros
+```
+
+Требования: x64 и **glibc 2.39 или новее** — Ubuntu 24.04+, Debian 13, Fedora 40+,
+openSUSE Tumbleweed, Arch, Manjaro. На более старых системах (Ubuntu 22.04, Debian 12, RHEL 9)
+образ не запустится: программы собраны на Ubuntu 24.04, а glibc вниз не совместима. Для FieldView
+нужен OpenGL. Если система ругается на FUSE, добавьте ключ `--appimage-extract-and-run`.
 
 ## Сборка из исходников
 
