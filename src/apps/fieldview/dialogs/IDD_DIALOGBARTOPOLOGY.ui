@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Файл создан tools/rc2ui.py из ресурсов Windows-версии. Не править вручную. -->
+<ui version="4.0">
+ <class>IDD_DIALOGBARTOPOLOGY</class>
+ <widget class="QDialog" name="IDD_DIALOGBARTOPOLOGY">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>434</width>
+    <height>223</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>434</width>
+    <height>223</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>434</width>
+    <height>223</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Topology</string>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+   <widget class="QLineEdit" name="IDC_RADIO117">
+    <property name="geometry">
+     <rect>
+      <x>285</x>
+      <y>46</y>
+      <width>29</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_TOPINPCOLORABSORBER">
+    <property name="geometry">
+     <rect>
+      <x>276</x>
+      <y>68</y>
+      <width>47</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Change</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_YAXIESMIN">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>13</y>
+      <width>75</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Absorber</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_TOPMETCOLORDEFAULT">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>99</y>
+      <width>387</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Default</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IDC_RADIO116">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>46</y>
+      <width>29</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IDC_RADIO115">
+    <property name="geometry">
+     <rect>
+      <x>191</x>
+      <y>46</y>
+      <width>29</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IDC_RADIO114">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>46</y>
+      <width>29</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IDC_RADIO113">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>46</y>
+      <width>29</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_DRAWFLAGSURFACE">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>180</y>
+      <width>53</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Surface</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_DRAWFLAGLINE">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>158</y>
+      <width>36</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Line</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_6">
+    <property name="geometry">
+     <rect>
+      <x>129</x>
+      <y>138</y>
+      <width>98</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Draw</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_RADIO119">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>176</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Link List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="IDD_DIALOGBARFIELD">
+    <property name="geometry">
+     <rect>
+      <x>356</x>
+      <y>68</y>
+      <width>47</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Change</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_TOPMAGCOLORMAGNETIC">
+    <property name="geometry">
+     <rect>
+      <x>188</x>
+      <y>68</y>
+      <width>47</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Change</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_TOPMETCOLORMETAL">
+    <property name="geometry">
+     <rect>
+      <x>101</x>
+      <y>68</y>
+      <width>47</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Change</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_TOPEPSCOLOREPS">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>68</y>
+      <width>47</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Change</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_5">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>33</y>
+      <width>423</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO10">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>180</y>
+      <width>56</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">3D</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_2</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO9">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>163</y>
+      <width>51</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">2D</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_2</string>
+   </attribute>
+   </widget>
+   <widget class="QLineEdit" name="IDC_BLENDEPS">
+    <property name="geometry">
+     <rect>
+      <x>371</x>
+      <y>163</y>
+      <width>51</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_AUTOSIZEFLAGY">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>13</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Eps</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_4">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>137</y>
+      <width>98</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Dimention</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_3">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>145</y>
+      <width>65</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Blend</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_XAXIESMAX">
+    <property name="geometry">
+     <rect>
+      <x>368</x>
+      <y>13</y>
+      <width>45</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Input</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>0</y>
+      <width>423</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Draw flags</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_XAXIESMIN">
+    <property name="geometry">
+     <rect>
+      <x>188</x>
+      <y>13</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Magnetic</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_AUTOSIZEFLAGX">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>13</y>
+      <width>56</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Metal</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>141</y>
+      <width>98</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Size</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_RADIO118">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>154</y>
+      <width>54</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Block</string>
+    </property>
+   </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <tabstops>
+  <tabstop>IDC_RADIO118</tabstop>
+  <tabstop>IDC_AUTOSIZEFLAGX</tabstop>
+  <tabstop>IDC_XAXIESMIN</tabstop>
+  <tabstop>IDC_XAXIESMAX</tabstop>
+  <tabstop>IDC_AUTOSIZEFLAGY</tabstop>
+  <tabstop>IDC_BLENDEPS</tabstop>
+  <tabstop>IDC_RADIO9</tabstop>
+  <tabstop>IDC_RADIO10</tabstop>
+  <tabstop>ID_TOPEPSCOLOREPS</tabstop>
+  <tabstop>ID_TOPMETCOLORMETAL</tabstop>
+  <tabstop>ID_TOPMAGCOLORMAGNETIC</tabstop>
+  <tabstop>IDD_DIALOGBARFIELD</tabstop>
+  <tabstop>IDC_RADIO119</tabstop>
+  <tabstop>IDC_DRAWFLAGLINE</tabstop>
+  <tabstop>IDC_DRAWFLAGSURFACE</tabstop>
+  <tabstop>IDC_RADIO113</tabstop>
+  <tabstop>IDC_RADIO114</tabstop>
+  <tabstop>IDC_RADIO115</tabstop>
+  <tabstop>IDC_RADIO116</tabstop>
+  <tabstop>ID_TOPMETCOLORDEFAULT</tabstop>
+  <tabstop>IDC_YAXIESMIN</tabstop>
+  <tabstop>ID_TOPINPCOLORABSORBER</tabstop>
+  <tabstop>IDC_RADIO117</tabstop>
+ </tabstops>
+ <buttongroups>
+  <buttongroup name="buttonGroup_2"/>
+ </buttongroups>
+</ui>

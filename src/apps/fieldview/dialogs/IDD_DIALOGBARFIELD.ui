@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Файл создан tools/rc2ui.py из ресурсов Windows-версии. Не править вручную. -->
+<ui version="4.0">
+ <class>IDD_DIALOGBARFIELD</class>
+ <widget class="QDialog" name="IDD_DIALOGBARFIELD">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>429</width>
+    <height>237</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>429</width>
+    <height>237</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>429</width>
+    <height>237</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Field</string>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+   <widget class="QCheckBox" name="IDC_YAXIESANGLE">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>198</y>
+      <width>86</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Draw Modul</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_XAXIESTRANS">
+    <property name="geometry">
+     <rect>
+      <x>311</x>
+      <y>138</y>
+      <width>83</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">256 Resolution</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="IDC_RADIO130">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>164</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Set color</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_XAXIESANGLE">
+    <property name="geometry">
+     <rect>
+      <x>321</x>
+      <y>107</y>
+      <width>86</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Draw size flag</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_9">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>96</y>
+      <width>105</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_8">
+    <property name="geometry">
+     <rect>
+      <x>303</x>
+      <y>124</y>
+      <width>96</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATIC_7">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>70</y>
+      <width>24</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true">max</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATIC_6">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>46</y>
+      <width>24</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true">min</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_5">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>7</y>
+      <width>105</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Z axies</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_DEFAULT_TRXYZ_ANGXYZ">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>195</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Default</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IDC_ZAXIESMAX">
+    <property name="geometry">
+     <rect>
+      <x>347</x>
+      <y>65</y>
+      <width>65</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IDC_ZAXIESMIN">
+    <property name="geometry">
+     <rect>
+      <x>347</x>
+      <y>41</y>
+      <width>65</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_AUTOSIZEFLAGZ">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>21</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Auto size</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL1">
+    <property name="geometry">
+     <rect>
+      <x>122</x>
+      <y>18</y>
+      <width>174</width>
+      <height>198</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_4">
+    <property name="geometry">
+     <rect>
+      <x>117</x>
+      <y>0</y>
+      <width>188</width>
+      <height>224</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Color</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_3">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>120</y>
+      <width>87</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Dimention</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO2">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>158</y>
+      <width>41</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">3D</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO1">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>140</y>
+      <width>41</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">2D</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QLabel" name="IDC_STATIC_2">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>96</y>
+      <width>35</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true">Blend</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IDC_BLEND">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>91</y>
+      <width>53</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>7</y>
+      <width>87</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Draw flags</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_DRAWFLAGLINE">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>47</y>
+      <width>60</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Line</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="IDC_DRAWFLAGSURFACE">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>21</y>
+      <width>60</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Surface</string>
+    </property>
+   </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <tabstops>
+  <tabstop>IDC_DRAWFLAGSURFACE</tabstop>
+  <tabstop>IDC_DRAWFLAGLINE</tabstop>
+  <tabstop>IDC_BLEND</tabstop>
+  <tabstop>IDC_RADIO1</tabstop>
+  <tabstop>IDC_RADIO2</tabstop>
+  <tabstop>IDC_AUTOSIZEFLAGZ</tabstop>
+  <tabstop>IDC_ZAXIESMIN</tabstop>
+  <tabstop>IDC_ZAXIESMAX</tabstop>
+  <tabstop>ID_DEFAULT_TRXYZ_ANGXYZ</tabstop>
+  <tabstop>IDC_XAXIESANGLE</tabstop>
+  <tabstop>IDC_RADIO130</tabstop>
+  <tabstop>IDC_XAXIESTRANS</tabstop>
+  <tabstop>IDC_YAXIESANGLE</tabstop>
+ </tabstops>
+ <buttongroups>
+  <buttongroup name="buttonGroup_1"/>
+ </buttongroups>
+</ui>

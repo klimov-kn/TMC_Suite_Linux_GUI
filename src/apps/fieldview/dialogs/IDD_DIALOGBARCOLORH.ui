@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Файл создан tools/rc2ui.py из ресурсов Windows-версии. Не править вручную. -->
+<ui version="4.0">
+ <class>IDD_DIALOGBARCOLORH</class>
+ <widget class="QDialog" name="IDD_DIALOGBARCOLORH">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>270</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>270</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Auto color</string>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+   <widget class="QPushButton" name="ID_ColorLevelAutoSet4">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>172</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Auto set Blue</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL_COLORALL">
+    <property name="geometry">
+     <rect>
+      <x>407</x>
+      <y>8</y>
+      <width>74</width>
+      <height>83</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_PLACEAXIESCOLOR">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>208</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string notr="true">OK</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_ColorLevelAutoSet3">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>148</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Auto set Green</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_ColorLevelAutoSet2">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>124</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Auto set Red</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_ColorLevelAutoSet">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>99</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Auto set</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ID_ColorLevelChange2">
+    <property name="geometry">
+     <rect>
+      <x>272</x>
+      <y>231</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Change</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL40">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>208</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL39">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>189</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL38">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>167</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL37">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>146</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL36">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>125</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL35">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>104</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL34">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>81</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL33">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>60</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL32">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>39</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL31">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>18</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL30">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>208</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL29">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>189</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL28">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>167</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL27">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>146</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL26">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>125</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL25">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>104</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL24">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>81</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL23">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>60</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL22">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>39</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL21">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>18</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>0</y>
+      <width>188</width>
+      <height>257</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Color</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO149">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>205</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level20</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO148">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>185</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level19</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO147">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>164</y>
+      <width>56</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level18</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO146">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>143</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level17</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO145">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>122</y>
+      <width>53</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level16</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO144">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>101</y>
+      <width>51</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level15</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO143">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>78</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level14</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO142">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>57</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level13</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO141">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>36</y>
+      <width>56</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level12</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO140">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>15</y>
+      <width>53</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level11</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO139">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>205</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level10</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO138">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>185</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level9</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO137">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>164</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level8</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO136">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>143</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level7</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO135">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>122</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level6</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO134">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>101</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level5</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO133">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>78</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level4</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO132">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>57</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level3</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO131">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>36</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level2</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO130">
+    <property name="geometry">
+     <rect>
+      <x>246</x>
+      <y>15</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level1</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_5</string>
+   </attribute>
+   </widget>
+   <widget class="QPushButton" name="ID_DEFAULT_TRXYZ_ANGXYZ">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>236</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Cancel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="IDC_RADIO10">
+    <property name="geometry">
+     <rect>
+      <x>71</x>
+      <y>232</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Change</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL20">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>208</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL19">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>189</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL18">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>167</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL17">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>146</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL16">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>125</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL15">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>104</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL14">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>81</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL13">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>60</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL12">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>39</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL11">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>18</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>208</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>189</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>167</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>146</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>125</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>104</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>81</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>39</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDC_STATICLEVEL1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>18</y>
+      <width>26</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="text">
+     <string notr="true"></string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="IDC_STATIC">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>0</y>
+      <width>188</width>
+      <height>258</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string notr="true">Color</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO129">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>205</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level20</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO128">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>185</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level19</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO127">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>164</y>
+      <width>56</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level18</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO126">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>143</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level17</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO125">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>122</y>
+      <width>53</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level16</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO124">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>101</y>
+      <width>51</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level15</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO123">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>78</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level14</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO122">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>57</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level13</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO121">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>36</y>
+      <width>56</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level12</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO120">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>15</y>
+      <width>53</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level11</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO119">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>205</y>
+      <width>54</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level10</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO118">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>185</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level9</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO117">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>164</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level8</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO116">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>143</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level7</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO115">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>122</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level6</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO114">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>101</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level5</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO113">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>78</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level4</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO9">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>57</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level3</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_BLENDEPS">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>36</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level2</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+   <widget class="QRadioButton" name="IDC_RADIO110">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>15</y>
+      <width>45</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Level1</string>
+    </property>
+   <attribute name="buttonGroup">
+    <string>buttonGroup_1</string>
+   </attribute>
+   </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <tabstops>
+  <tabstop>IDC_RADIO110</tabstop>
+  <tabstop>IDC_BLENDEPS</tabstop>
+  <tabstop>IDC_RADIO9</tabstop>
+  <tabstop>IDC_RADIO113</tabstop>
+  <tabstop>IDC_RADIO114</tabstop>
+  <tabstop>IDC_RADIO115</tabstop>
+  <tabstop>IDC_RADIO116</tabstop>
+  <tabstop>IDC_RADIO117</tabstop>
+  <tabstop>IDC_RADIO118</tabstop>
+  <tabstop>IDC_RADIO119</tabstop>
+  <tabstop>IDC_RADIO120</tabstop>
+  <tabstop>IDC_RADIO121</tabstop>
+  <tabstop>IDC_RADIO122</tabstop>
+  <tabstop>IDC_RADIO123</tabstop>
+  <tabstop>IDC_RADIO124</tabstop>
+  <tabstop>IDC_RADIO125</tabstop>
+  <tabstop>IDC_RADIO126</tabstop>
+  <tabstop>IDC_RADIO127</tabstop>
+  <tabstop>IDC_RADIO128</tabstop>
+  <tabstop>IDC_RADIO129</tabstop>
+  <tabstop>IDC_RADIO10</tabstop>
+  <tabstop>ID_DEFAULT_TRXYZ_ANGXYZ</tabstop>
+  <tabstop>IDC_RADIO130</tabstop>
+  <tabstop>IDC_RADIO131</tabstop>
+  <tabstop>IDC_RADIO132</tabstop>
+  <tabstop>IDC_RADIO133</tabstop>
+  <tabstop>IDC_RADIO134</tabstop>
+  <tabstop>IDC_RADIO135</tabstop>
+  <tabstop>IDC_RADIO136</tabstop>
+  <tabstop>IDC_RADIO137</tabstop>
+  <tabstop>IDC_RADIO138</tabstop>
+  <tabstop>IDC_RADIO139</tabstop>
+  <tabstop>IDC_RADIO140</tabstop>
+  <tabstop>IDC_RADIO141</tabstop>
+  <tabstop>IDC_RADIO142</tabstop>
+  <tabstop>IDC_RADIO143</tabstop>
+  <tabstop>IDC_RADIO144</tabstop>
+  <tabstop>IDC_RADIO145</tabstop>
+  <tabstop>IDC_RADIO146</tabstop>
+  <tabstop>IDC_RADIO147</tabstop>
+  <tabstop>IDC_RADIO148</tabstop>
+  <tabstop>IDC_RADIO149</tabstop>
+  <tabstop>ID_ColorLevelChange2</tabstop>
+  <tabstop>ID_ColorLevelAutoSet</tabstop>
+  <tabstop>ID_ColorLevelAutoSet2</tabstop>
+  <tabstop>ID_ColorLevelAutoSet3</tabstop>
+  <tabstop>ID_PLACEAXIESCOLOR</tabstop>
+  <tabstop>ID_ColorLevelAutoSet4</tabstop>
+ </tabstops>
+ <buttongroups>
+  <buttongroup name="buttonGroup_1"/>
+  <buttongroup name="buttonGroup_5"/>
+ </buttongroups>
+</ui>

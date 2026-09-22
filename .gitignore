@@ -1,0 +1,29 @@
+# Каталоги сборки
+build/
+build-*/
+dist/
+cmake-build-*/
+
+# Объектные файлы и библиотеки
+*.o
+*.a
+*.so
+*.so.*
+
+# Временные файлы расчёта
+*~$Prepr$~
+$$vr$$s.prc
+*.tos
+*.soc
+*.$op
+
+# Среды разработки
+.vscode/
+.idea/
+*.user
+*.autosave
+
+# Прочее
+__pycache__/
+*.pyc
+.DS_Store
